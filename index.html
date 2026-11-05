@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#04050b">
+<meta name="description" content="Orkestra Warna — kanvas interaktif fraktal, gelombang, jalur cahaya, dan percikan.">
+<title>Orkestra Warna</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-layer bg-space active"></div>
+  <div class="bg-layer bg-water"></div>
+  <div class="bg-layer bg-sand"></div>
+
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <canvas id="stage" aria-label="Kanvas orkestra warna interaktif"></canvas>
+
+  <div class="vignette"></div>
+
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+  <header class="hud">
+    <h1>Orkestra Warna</h1>
+    <div class="sub">gerakkan &middot; seret &middot; tahan &middot; ketuk</div>
+  </header>
+
+  <div class="tagline">setiap gerak adalah musik</div>
+
+  <script src="app.js"></script>
+</body>
+</html>
